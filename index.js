@@ -1,7 +1,7 @@
 const { Plugin } = require('powercord/entities');
 const mappings = require('./mapping')
 
-module.exports = class AOUUtils extends Plugin {
+module.exports = class Enchanter extends Plugin {
   startPlugin () {
     this.registerMain();
   }
